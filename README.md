@@ -1,5 +1,5 @@
 # tinytetris
-80x23 terminal tetris!
+80x23 terminal tetris! 80x23的终端俄罗斯方块游戏
 
 ![tinytetris gif](animation.gif)
 
@@ -8,9 +8,13 @@ This is the 80x23 version. You control it with `a` (left), `d` (right), `w` (rot
 `s` (drop), and `q` (quit). It depends on `curses.h` (so you'll need to compile with
 `-lcurses`, and install curses if you don't already have it) and requires C++11.
 
+Good! 很好
+
 ### tinytetris-commented.cpp
 This one is almost identical to `tinytetris.cpp`, but not minified, and with some
 comments to make it easier to read (but it's still tricky to read in certain parts).
 
+Easy to read version with added Chinese notes. 容易阅读的版本，并添加中文注释
+
 ### build binary tinytetris-commented.cpp
-`g++ -o tinytetris-commented tinytetris-commented.cpp -lncurses`
+Build: `g++ -o tinytetris-commented tinytetris-commented.cpp -lncurses`
